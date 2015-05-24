@@ -1,11 +1,14 @@
 $("#add").on("click", function(){
 	$('#addition').val();
-	$("ul").append($('<li>', {
-		text: $('#addition').val()
-		}));	
+	$("ul").append($('<li>' + '<input type="checkbox" name="checkbox" class="checkbox"/>' + $('#addition').val() +  '<button class="dButton">Done</button>' + '</li>'));
 	$("#addition").val("");
 });
 
-$("ul").delegate("li", "click", function(e){	
-	$(this).toggleClass("complete todos")
+$('li').delegate(".checkbox", "click", function(e){
+	$(this).parent().parent().toggleClass("complete")
+})
+	
+
+$(".dButton").on("click", function(e){	
+	$(this).parent().toggleClass("done")
 })
