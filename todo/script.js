@@ -4,11 +4,12 @@ $("#add").on("click", function(){
 	$("#addition").val("");
 });
 
-$('li').delegate(".checkbox", "click", function(e){
-	$(this).parent().parent().toggleClass("complete")
+$("ul").delegate(".dButton", "click", function(e){	
+	$(this).parent().toggleClass("done")
+})
+
+$('ul').delegate("li", "click", function(e){
+	$(this).toggleClass("complete")
 })
 	
 
-$(".dButton").on("click", function(e){	
-	$(this).parent().toggleClass("done")
-})
