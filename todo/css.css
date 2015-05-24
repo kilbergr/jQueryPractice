@@ -1,0 +1,46 @@
+h1{
+	font-size: 42px;
+	font-style: bold;
+	font-family: Poiret One;
+}
+
+body{
+	text-align: center;
+}
+
+ul{
+	font-family: Poiret One;
+	font-size: 28px;
+	background-color: #CFCFBE;
+	list-style-type: none;
+	width: 25%;
+	margin-left: 35%;
+	margin-top: 10%;
+	padding:6px 20px;
+}
+
+input{
+	font-family: Poiret One;
+	font-size: 20px;
+	width: 30%;
+}
+
+.complete {
+  text-decoration:line-through;
+  color:#BEBECF;
+}
+
+.todos {
+	background-color: #CFCFBE;
+}
+
+#add{
+  margin-left:10px;
+  background:#BEBECF;
+  font-size:20px;
+  font-family: Poiret One;
+  padding:6px 20px;
+  letter-spacing:2px;
+  box-shadow:0 2px 0 0 #662929;
+  border-radius:4px;
+}
