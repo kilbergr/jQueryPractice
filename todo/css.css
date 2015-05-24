@@ -13,10 +13,11 @@ ul{
 	font-size: 28px;
 	background-color: #CFCFBE;
 	list-style-type: none;
-	width: 25%;
+	width: 40%;
 	margin-left: 35%;
 	margin-top: 10%;
 	padding:6px 20px;
+	border: 1px solid gray;
 }
 
 input{
@@ -30,8 +31,11 @@ input{
   color:#BEBECF;
 }
 
-.todos {
+li {
 	background-color: #CFCFBE;
+	text-align: left;
+	font-size: 20px;
+	padding: 10px;
 }
 
 #add{
@@ -40,7 +44,23 @@ input{
   font-size:20px;
   font-family: Poiret One;
   padding:6px 20px;
-  letter-spacing:2px;
   box-shadow:0 2px 0 0 #662929;
   border-radius:4px;
+}
+
+#checkbox {
+	float: left;
+
+}
+
+.dButton{
+	  background:#BEBECF;
+	  font-family: Poiret One;
+  	box-shadow:0 2px 0 0 #662929;
+  	border-radius:4px;
+  	float: right;
+}
+
+.done{
+	display: none;
 }
