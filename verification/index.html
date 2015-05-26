@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Verification</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<form action="">
+	<label for="password">
+		Please enter your password:
+		<input type="password" minLength="6" id="password" autofocus="on">
+	</label>
+	<input type="submit" id="submit">
+</form>
+<div id="warning">Your password must be longer than 6 characters</div>
+<div id="noPW">Please enter a password</div>
+<div id="shortPW">Your password MUST be at least 6 characters</div>
+<div id="successPW">Thank you for signing up!</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
