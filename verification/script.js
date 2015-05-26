@@ -28,6 +28,4 @@ $("#submit").on("click", function(e){
 		$("#successPW").fadeIn("2000ms");
 		$("form").fadeOut("2000ms");
 	}
-
-
 })
